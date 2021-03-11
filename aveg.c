@@ -4,11 +4,11 @@ int main()
 	int x, y, z, sum;
 	float avg;
 	sum = 0;
-	printf("¼¼ Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À.: ");      /*Á¤¼ö ¼¼°³¸¦ ÇÑ ¹ø¿¡ ÀÔ·Â ¹ŞÀº ÈÄ Æò±Õ°ªÀ» ±¸ÇÒ ¼ö ÀÖ´Ù.*/
+	printf("input three integers.: ");      /*ì •ìˆ˜ ì„¸ê°œë¥¼ í•œ ë²ˆì— ì…ë ¥ ë°›ì€ í›„ í‰ê· ê°’ì„ êµ¬í•  ìˆ˜ ìˆë‹¤.*/
 	scanf_s("%d%d%d", &x, &y, &z);
 	sum = x + y + z;
 	avg = sum / 3.0;
-	printf("¼¼ ¼öÀÇ Æò±ÕÀº %f ÀÔ´Ï´Ù.", avg);
+	printf("the average value of three integers is %f.", avg);
 	
 	return 0;
 }
