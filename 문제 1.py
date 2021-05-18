@@ -15,3 +15,5 @@ elif (num ==2):
     print(num1,"+...+",num2,"는 ",result,"입니다.")
 else:
     print("1 또는 2만 입력해야 합니다.")
+##eval함수를 가지고 계산기 구현
+##num1부터 num2까지 덧셈 계산 
