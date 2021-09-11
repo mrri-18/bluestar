@@ -13,6 +13,7 @@ public class playermove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //c# 물체 이동하기
         transform.position = transform.position + Vector3.down * 5 * Time.deltaTime;
     }
 }
